@@ -2,12 +2,8 @@ import json
 import os
 import numpy as np
 
-import sys
-sys.path.insert(1, '../../../tasks')
-from task_helper import get_completion_tasks
-
-sys.path.insert(1, '../../../evaluation')
-from completion_helper import load_true_completion_df, get_engaged_task_completion_rate
+from tasks.task_helper import get_completion_tasks
+from cip_helpers.completion_helper import load_true_completion_df, get_engaged_task_completion_rate
 from rmse_helper import get_rmse
 
 def load_results(results_file):

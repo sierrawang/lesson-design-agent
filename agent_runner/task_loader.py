@@ -28,9 +28,9 @@ def load_accounts_q():
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--num_agents', type=int, default=30)
+    parser.add_argument('--num_agents', type=int, default=5)
     parser.add_argument('--max_threads', type=int, default=10)
-    parser.add_argument('--task_file', type=str, default="../simulation_methods/baseline_agent/agent_tasks/do_some_experiment_tasks.json")
+    parser.add_argument('--task_file', type=str, default="tasks/dropout_tasks.json")
     parser.add_argument("--api_model", default="gpt-4o", type=str, help="api model name")
     parser.add_argument("--seed", type=int, default=None)
     parser.add_argument("--max_attached_imgs", type=int, default=3)

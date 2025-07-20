@@ -1,13 +1,8 @@
-import sys
-from system_prompt import SYSTEM_PROMPT
-from system_prompt_no_examples import SYSTEM_PROMPT_NO_EXAMPLES
-
-sys.path.insert(1, '..')
-from parse_agent_logs import get_lesson_description_from_agent_run
-
-sys.path.insert(1, '../../../evaluation')
-from completion_helper import get_engaged_task_completion_rate
-from lessons_helper import get_slides_for_lesson
+from predict_dropout.system_prompt import SYSTEM_PROMPT
+from predict_dropout.system_prompt_no_examples import SYSTEM_PROMPT_NO_EXAMPLES
+from agent_runner.parse_agent_logs import get_lesson_description_from_agent_run
+from cip_helpers.completion_helper import get_engaged_task_completion_rate
+from cip_helpers.lessons_helper import get_slides_for_lesson
 
 
 # Construct a description of this lesson using all the information that we have - including

@@ -3,12 +3,8 @@ import os
 import numpy as np
 import random
 
-import sys
-sys.path.insert(1, '../../../tasks')
-from task_helper import get_dropout_tasks
-
-sys.path.insert(1, '../../../evaluation')
-from dropout_helper import load_true_dropout_distribution, dropout_distribution_js_divergence
+from tasks.task_helper import get_dropout_tasks
+from cip_helpers.dropout_helper import load_true_dropout_distribution, dropout_distribution_js_divergence
 
 def load_results(results_file):
     current_dir = os.path.dirname(os.path.realpath(__file__))

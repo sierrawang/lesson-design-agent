@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 Started from clone of WebVoyager repository: [WebVoyager by MinorJerry](https://github.com/MinorJerry/WebVoyager.git)
 
-**Run the agent**
+* Run the descriptive agent
 ```bash
 python -m agent_runner
 ```

@@ -2,14 +2,9 @@ from prompt_helper import get_system_prompt
 from gpt_helper import get_prediction
 import json
 import os
-
-import sys
-sys.path.insert(1, '../../../tasks')
-from task_helper import get_dropout_tasks, get_example_lesson_tasks
-
-sys.path.insert(1, '../../../evaluation')
-from completion_helper import load_true_completion_df
-from dropout_helper import load_true_dropout_distribution
+from tasks.task_helper import get_dropout_tasks, get_example_lesson_tasks
+from cip_helpers.completion_helper import load_true_completion_df
+from cip_helpers.dropout_helper import load_true_dropout_distribution
 
 # Get the predicted dropout distribution for a specific run of a task
 # This will be in the form of a dictionary with the slide names as keys and the dropout rates as values

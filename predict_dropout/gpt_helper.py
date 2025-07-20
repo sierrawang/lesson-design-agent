@@ -1,7 +1,5 @@
 import re
-import sys
-sys.path.insert(1, '../../../simulation_helpers')
-from openai_helper import call_gpt, get_openai_client
+from agent_runner.openai_helper import call_gpt, get_openai_client
 
 # Return a dictionary with the predicted dropout distribution
 def parse_gpt_response(response):

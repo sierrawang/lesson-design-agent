@@ -10,7 +10,7 @@ def do_lesson(lesson, args, accounts_q, output_folder, num_runs, site_url='https
     task_driver, logger, output_dir, account_info = initialize_task(lesson['id'], args, accounts_q, output_folder, site_url)
 
     # Execute the task num_runs times!
-    execute_lesson_many_times(task_driver, logger, output_dir, lesson, args, site_url, num_runs, ablation=True)
+    execute_lesson_many_times(task_driver, logger, output_dir, lesson, args, site_url, num_runs)
 
     # Close the task driver
     task_driver.close()
@@ -25,9 +25,6 @@ def do_all_lessons():
     # Load the tasks
     all_tasks = get_all_tasks()
     lesson_tasks = [task for task in all_tasks if task['type'] == 'lesson' and task['id'] != 'using-libraries']
-
-    # Start with first 5 lessons
-    lesson_tasks = lesson_tasks[5:]
 
     # Load the account credentials
     accounts_q = load_accounts_q()
