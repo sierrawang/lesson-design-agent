@@ -1,6 +1,6 @@
 # Lesson Design Agent
 
-This repository contains the code used to run experiments for analyzing learning design through AI agents. The system uses AI agents to navigate through Code in Place (CIP) lessons and generate descriptions, which are then used to predict student completion rates and dropout patterns.
+This repository contains the code used to run experiments for analyzing lesson designs with AI web agents. The system uses AI agents to navigate through Code in Place (CIP) lessons and generate descriptions, which are then used to predict student completion rates and dropout patterns.
 
 This repository is built off the WebVoyager web agent: [WebVoyager](https://github.com/MinorJerry/WebVoyager.git)
 
