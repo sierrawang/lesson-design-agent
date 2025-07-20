@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Orientation",
+        "id": "orientation",
+        "type": "lesson",
+        "flags": ["onboarding"]
+    },
+    {
+        "name": "Art of Problem Solving",
+        "id": "decomposition",
+        "type": "lesson"
+    },
+    {
+        "name": "Intro to Python",
+        "id": "introduction-to-python",
+        "type": "lesson"
+    },
+    {
+        "name": "Expressions",
+        "id": "expressions",
+        "type": "lesson"
+    },
+    {
+        "name": "Python Control Flow",
+        "id": "python-control-flow",
+        "type": "lesson"
+    },
+    {
+        "name": "Graphics",
+        "id": "graphics",
+        "type": "lesson"
+    },
+    {
+        "name": "Functions",
+        "id": "functions",
+        "type": "lesson"
+    },
+    {
+        "name": "Lists",
+        "id": "lists",
+        "type": "lesson"
+    },
+    {
+        "name": "Dictionaries",
+        "id": "dictionaries",
+        "type": "lesson"
+    },
+    {
+        "name": "Animation",
+        "id": "animation",
+        "type": "lesson",
+        "flags": ["extra-content"]
+    },
+    {
+        "name": "Information Flow",
+        "id": "information-flow",
+        "type": "lesson",
+        "flags": ["extra-content"]
+    },
+    {
+        "name": "Strings",
+        "id": "strings",
+        "type": "lesson",
+        "flags": ["extra-content"]
+    },
+    {
+        "name": "Setting up an editor and Github",   
+        "id": "setting-up-environment",
+        "type": "lesson",
+        "flags": ["extra-content"]
+    },    
+    {
+        "name": "Using the Internet",
+        "id": "apis",
+        "type": "lesson",
+        "flags": ["extra-content"]
+    }
+]

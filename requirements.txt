@@ -1,0 +1,4 @@
+numpy==2.2.1
+openai==1.59.3
+pandas==2.2.3
+selenium==4.27.1

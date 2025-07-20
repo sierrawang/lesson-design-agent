@@ -1,0 +1,6 @@
+[
+    {"action": "click", "info": ["3"]}, 
+    {"action": "type", "info": {"number": "0", "content": "simulatedstudents@gmail.com"}}, 
+    {"action": "type", "info": {"number": "1", "content": "simulatedstudents123"}}, 
+    {"action": "click", "info": ["3"]}
+]

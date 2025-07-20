@@ -1,0 +1,275 @@
+[
+    {
+        "name": "Welcome to Karel",
+        "id": "welcome-to-karel",
+        "type": "lesson",
+        "flags": ["application"]
+    },
+    {
+        "name": "Control Flow",
+        "id": "control-flow",
+        "type": "lesson",
+        "flags": ["application"]
+    },
+    {
+        "name": "Warmup",
+        "id": "warmup",
+        "type": "assignment",
+        "flags": ["application"]
+    },
+    {
+        "name": "Karel's Home",
+        "id": "housekarel",
+        "type": "assignment",
+        "flags": ["application"]
+    },
+    {
+        "name": "Piles",
+        "id": "piles",
+        "type": "assignment",
+        "flags": ["application"]
+    },
+    {
+        "name": "Orientation",
+        "id": "orientation",
+        "type": "lesson",
+        "flags": ["onboarding"]
+    },
+    {
+        "name": "Jigsaw Karel",
+        "id": "jigsaw",
+        "type": "assignment"
+    },
+    {
+        "name": "2024 Karel",
+        "id": "2023",
+        "type": "assignment"
+    },
+    {
+        "name": "Beeper Path",
+        "id": "beeper-path",
+        "type": "assignment"
+    },
+    {
+        "name": "Art of Problem Solving",
+        "id": "decomposition",
+        "type": "lesson"
+    },
+    {
+        "name": "Stone Mason Karel",
+        "id": "stonemason",
+        "type": "assignment"
+    },
+    {
+        "name": "Fill Karel",
+        "id": "fillkarel",
+        "type": "assignment"
+    },
+    {
+        "name": "Midpoint Karel",
+        "id": "midpoint",
+        "type": "assignment",
+        "flags": ["optional"]
+    },
+    {
+        "name": "Checkerboard",
+        "id": "checkerboard",
+        "type": "assignment",
+        "flags": ["optional"]
+    },
+    {
+        "name": "Intro to Python",
+        "id": "introduction-to-python",
+        "type": "lesson"
+    },
+    {
+        "name": "Mad Libs",
+        "id": "madlibs",
+        "type": "assignment"
+    },
+    {
+        "name": "Hello, Name",
+        "id": "helloname",
+        "type": "assignment"
+    },
+    {
+        "name": "Expressions",
+        "id": "expressions",
+        "type": "lesson"
+    },
+    {
+        "name": "Multiply Two Numbers",
+        "id": "multiply2nums",
+        "type": "assignment"
+    },
+    {
+        "name": "Dog Years",
+        "id": "dogyears",
+        "type": "assignment"
+    },
+    {
+        "name": "N-sided Dice",
+        "id": "nsideddice",
+        "type": "assignment"
+    },
+    {
+        "name": "Python Control Flow",
+        "id": "python-control-flow",
+        "type": "lesson"
+    },
+    {
+        "name": "Joke Bot",
+        "id": "jokebot",
+        "type": "assignment"
+    },
+    {
+        "name": "10 Random",
+        "id": "10random",
+        "type": "assignment"
+    },
+    {
+        "name": "Liftoff",
+        "id": "liftoff",
+        "type": "assignment"
+    },
+    {
+        "name": "Double It",
+        "id": "doubleit",
+        "type": "assignment"
+    },
+    {
+        "name": "Khan Academy",
+        "id": "khansole",
+        "type": "assignment"
+    },
+    {
+        "name": "Game of Nimm",
+        "id": "gameofnimm",
+        "type": "assignment",
+        "flags": ["optional"]
+    },
+    {
+        "name": "Graphics",
+        "id": "graphics",
+        "type": "lesson"
+    },
+    {
+        "name": "Draw Flag",
+        "id": "flag",
+        "type": "assignment"
+    },
+    {
+        "name": "Box Row",
+        "id": "boxrow",
+        "type": "assignment"
+    },
+    {
+        "name": "Functions",
+        "id": "functions",
+        "type": "lesson"
+    },
+    {
+        "name": "Quilt",
+        "id": "quilt",
+        "type": "assignment",
+        "flags": ["optional"]
+    },
+    {
+        "name": "Pyramid",
+        "id": "pyramid",
+        "type": "assignment",
+        "flags": ["optional"]
+    },
+    {
+        "name": "Lists",
+        "id": "lists",
+        "type": "lesson"
+    },
+    {
+        "name": "Compute Average",
+        "id": "compute-average",
+        "type": "assignment"
+    },
+    {
+        "name": "Dictionaries",
+        "id": "dictionaries",
+        "type": "lesson"
+    },
+    {
+        "name": "Quizzlet",
+        "id": "quizzlet",
+        "type": "assignment"
+    },
+    {
+        "name": "Baby Vocab",
+        "id": "baby-vocab",
+        "type": "assignment",
+        "flags": ["optional"]
+    },
+    {
+        "name": "Memory Game",
+        "id": "memory-game",
+        "type": "assignment",
+        "flags": ["optional"]
+    },
+    {
+        "name": "Animation",
+        "id": "animation",
+        "type": "lesson",
+        "flags": ["extra-content"]
+    },
+    {
+        "name": "Baby Snake",
+        "id": "babysnake",
+        "type": "assignment",
+        "flags": ["optional", "extra-content"]
+    },
+    {
+        "name": "Follow Me",
+        "id": "followme",
+        "type": "assignment",
+        "flags": ["optional", "extra-content"]
+    },
+    {
+        "name": "Information Flow",
+        "id": "information-flow",
+        "type": "lesson",
+        "flags": ["extra-content"]
+    },
+    {
+        "name": "FizzBuzz",
+        "id": "fizzbuzz",
+        "type": "assignment",
+        "flags": ["optional", "extra-content"]
+    },
+    {
+        "name": "Breakout",
+        "id": "breakout",
+        "type": "assignment",
+        "flags": ["optional", "extra-content"]
+    },
+    {
+        "name": "Strings",
+        "id": "strings",
+        "type": "lesson",
+        "flags": ["extra-content"]
+    },
+    {
+        "name": "Setting up an editor and Github",   
+        "id": "setting-up-environment",
+        "type": "lesson",
+        "flags": ["extra-content"]
+    },
+    {
+        "name": "Using Libraries",
+        "id": "using-libraries",
+        "type": "lesson",
+        "flags": ["extra-content"]
+    },        
+    {
+        "name": "Using the Internet",
+        "id": "apis",
+        "type": "lesson",
+        "flags": ["extra-content"]
+    }
+]
