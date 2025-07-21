@@ -1,8 +1,10 @@
 # Lesson Design Agent
 
-This repository contains the code used to run experiments for analyzing lesson designs with AI web agents. The system uses AI agents to navigate through Code in Place (CIP) lessons and generate descriptions, which are then used to predict student completion rates and dropout patterns.
+This repository contains the code used in the [AI Web Agents Can Effectively Guide Lesson Design and Predict Student Outcomes](https://link.springer.com/chapter/10.1007/978-3-031-98417-4_21).
 
-This repository is built off the WebVoyager web agent: [WebVoyager](https://github.com/MinorJerry/WebVoyager.git)
+The system uses AI web agents to navigate through [Code in Place](https://codeinplace.stanford.edu/) lessons and generate descriptions, which are then used to predict student completion rates and dropout patterns.
+
+Our implementation is built off the WebVoyager web agent: [WebVoyager](https://github.com/MinorJerry/WebVoyager.git)
 
 ## Overview
 
@@ -20,7 +22,7 @@ Due to privacy reasons, the following data is not included in this repository:
    - Place credentials in `agent_runner/credentials/cip_agent_credentials.json`
    - Format: List of dictionaries with `username` and `password` fields
 
-2. **Code in Place Data**: Historical student data for prediction tasks
+2. **Code in Place Data**: Historical student data for prediction tasks (this is not necessary to run the web agent!)
    - Student completion data
    - Dropout distribution data
    - Lesson video transcripts
@@ -34,9 +36,6 @@ conda activate agent
 
 # Install dependencies
 pip install -r requirements.txt
-
-# Install Chrome WebDriver for Selenium
-# Download from: https://chromedriver.chromium.org/
 ```
 
 ## Repository Structure
