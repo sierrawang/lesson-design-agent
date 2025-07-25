@@ -1,5 +1,7 @@
 # Lesson Design Agent
 
+<span style="color:red"><strong>Note:</strong> Not all of the commands in this repo will work at this moment. If you run into any issues or have questions, please reach out to Sierra (sierraw@stanford.edu).</span>
+
 This repository contains the code used in the [AI Web Agents Can Effectively Guide Lesson Design and Predict Student Outcomes](https://link.springer.com/chapter/10.1007/978-3-031-98417-4_21).
 
 The system uses AI web agents to navigate through [Code in Place](https://codeinplace.stanford.edu/) lessons and generate descriptions, which are then used to predict student completion rates and dropout patterns.
